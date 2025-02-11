@@ -1,0 +1,21 @@
+<style>
+    .navbar > * {
+        margin-right : 5px;
+        margin-left : 5px;
+    }
+
+    .navbar-button {
+        width : 40%;
+    }
+</style>
+<header>
+    <div class="display-row center-content">
+        <h1>{#insert title}Default Title{/}</h1>
+    </div>
+    <div class="display-row center-content navbar">
+        <a class="btn btn-primary navbar-button" href="/users" role="button" up-transition="move-right"
+           up-target="main">Users</a>
+        <a class="btn btn-primary navbar-button" href="/teams" role="button" up-transition="move-left"
+           up-target="main">Teams</a>
+    </div>
+</header>
