@@ -11,7 +11,10 @@
         {/include}
 
         <main>
-            page 2
+            {objTemplateData.body}
+            <p>
+                {objTemplateData.getValue().abs()}
+            </p>
         </main>
 
         {#include footer.html}{/include}
